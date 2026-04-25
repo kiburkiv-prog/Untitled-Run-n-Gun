@@ -2,7 +2,7 @@
 Untitled Run 'n Gun game with Metal Slug assets. My biggest project. Doing it in C++ and raylib.
 The game is in active development.
 
-https://files.catbox.moe/r2qkm3.mp4
+# DEMO
 
 
 https://github.com/user-attachments/assets/21d3e640-1612-4faa-ad8c-1ebf486df001
