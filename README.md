@@ -2,7 +2,7 @@
 Untitled Run 'n Gun game with Metal Slug assets. My biggest project. Doing it in C++ and raylib.
 The game is in active development.
 
-https://github.com/kiburkiv-prog/Untitled-Run-n-Gun/blob/57790271d406377d83b88e5e87ea1c762928b21f/2026-04-25%2017-23-16.mp4
+https://github.com/kiburkiv-prog/Untitled-Run-n-Gun/2026-04-25%2017-23-16.mp4
 
 # My targets
 First of all, I like Metal Slug series. I just enjoy cool graphics and SFX.
