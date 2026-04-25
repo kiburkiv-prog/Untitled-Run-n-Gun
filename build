@@ -1,0 +1,1 @@
+g++ main.cpp objects.cpp animating.cpp -lraylib -lSDL3 -o runngun
