@@ -4,6 +4,10 @@ The game is in active development.
 
 https://files.catbox.moe/r2qkm3.mp4
 
+
+https://github.com/user-attachments/assets/21d3e640-1612-4faa-ad8c-1ebf486df001
+
+
 # My targets
 First of all, I like Metal Slug series. I just enjoy cool graphics and SFX.
 One day I wanted to create such a game myself, so I started.
