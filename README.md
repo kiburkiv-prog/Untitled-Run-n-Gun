@@ -8,6 +8,14 @@ The game is in active development.
 https://github.com/user-attachments/assets/21d3e640-1612-4faa-ad8c-1ebf486df001
 
 
+#From the development
+
+
+
+https://github.com/user-attachments/assets/30293f28-878a-4cef-8c18-c975cc3892aa
+
+
+
 # RUNNING ON YOUR COMPUTER
 Presented build script is for using with Linux. You have to edit it manually if you wanna compile the game for Windows.
 But you can also just download the newest compiled release for both Linux and Windows.
