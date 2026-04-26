@@ -8,10 +8,10 @@ The game is in active development.
 https://github.com/user-attachments/assets/21d3e640-1612-4faa-ad8c-1ebf486df001
 
 
-#From the development
+# From the development
 
 
-
+Developing camera
 https://github.com/user-attachments/assets/30293f28-878a-4cef-8c18-c975cc3892aa
 
 
