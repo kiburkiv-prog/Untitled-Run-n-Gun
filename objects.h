@@ -2,6 +2,10 @@
 #include <SDL3/SDL.h>
 
 
+
+
+
+
 class Collision{
 public:
 	int* x;
@@ -18,14 +22,18 @@ public:
 
 
 
+
 class GameObject{
 public:
     float x;
     float y;
+	float draw_x;
+	float draw_y;
 	float angle = 0;
     char facing = 1;
     Animater animater;
     void render();
+	void render(int, int);
 
 };
 
@@ -51,6 +59,11 @@ public:
 	int yint;
 	int lastx;
 	int lasty;
+	bool const_y = false;
+	float global_x = 0;
+	float global_y = 0;
+	float lastgx = 0;
+	float lastgy = 0;
 	int standing_index = 0;
 	bool null_speed = false;
 	Bullet** bullets = new Bullet* [400];
@@ -75,12 +88,15 @@ public:
     void load_textures();
 	void jump();
 	void shoot();
-    void render();
+    void render(int, int);
 	void null_all();
     void move();
 	void set_offsets();
     void exist();
 };
+
+
+
 
 
 
@@ -96,5 +112,21 @@ public:
 	string type;
 	Collision* collision;
 	Surface(float*, float*, int, int, string, int);
-	void update(Player&);
+	void update(Player&, int, int);
+};
+
+class Cam{
+public:
+	float offset_x = 0;
+	float offset_y = 0;
+	int x1 = 200;
+	int y1 = 200;
+	int y2 = 560;
+	int x2 = 640;
+	bool is_x = false;
+	bool is_y = false;
+	Collision** collisions = new Collision* [4];
+	Cam();
+	void draw();
+	void move(Player&, int&, int&);
 };

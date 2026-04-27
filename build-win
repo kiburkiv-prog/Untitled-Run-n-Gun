@@ -1,0 +1,1 @@
+ g++ main.cpp  animating.cpp  objects.cpp -o igra.exe -lraylib -lopengl32 -lgdi32 -lwinmm -lSDL3
